@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
+   <link rel="stylesheet" type="text/css" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
     <main>
@@ -19,13 +21,15 @@
                 </header>
 
                <!--ÁREA DE FORMULÁRIO--> 
-               <div class="formulário">
+               <div class="formularioTarefa">
+                  
                     <label for="inputAdicionarTarefa">Adicionar uma nova tarefa</label> 
+
                     <input type="text" id="inputAdicionarTarefa" placeholder="Adicione uma nova tarefa">   
                </div>
 
                <!--PESQUISAR UMA TAREFA-->
-               <div class="pesquisa">
+               <div class="areaPesquisas">
 
                 <input type="text" placeholder="Pesquise aqui a tarefa">
 
@@ -33,6 +37,7 @@
                </div>
 
                <!--ÁREA DE LISTA DE TAREFAS-->
+
                 <div class="listaTarefas">
                     <ul>
                         <li>
@@ -55,8 +60,11 @@
 
                 <!--MODO NOTURNO-->
                 <div class="modoNoturno">
+                    
                     <label for="inputModoNoturno">Modo noturno</label>
+                    
                     <input type="checkbox" id="inputModoNoturno" name="inputModoNoturno">
+                    
                 </div>
         </section>
     </main>

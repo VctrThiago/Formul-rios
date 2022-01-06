@@ -1,0 +1,75 @@
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+/*QUADRO AZU*/
+section {
+    background-color: dodgerblue;
+    width: 400px;
+    color: ghostwhite;
+    margin-top: 100px;
+}
+
+/*CABEÇALHO DA SEÇÃO*/
+header{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+header h1{
+    font-size: 40px;
+}
+header p{
+    font-size: 15px;
+}
+
+/*ÁREA DE FORMULÁRIO*/
+
+.formularioTarefa{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.formularioTarefa label{
+    display: none;
+}
+.formularioTarefa input{}
+
+
+/*PESQUISAR UMA TAREFA*/
+
+.areaPesquisar{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.areaPesquisar input{}
+.areaPesquisar button{}
+
+/*ÁREA DE LISTA DE TAREFAS*/
+
+.listaTarefas{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.listaTarefas ul{}
+.listaTarefas li{}
+.listaTarefas h2{}
+.listaTarefas div{}
+.listaTarefas button{}
+
+/*MODO NOTURNO*/
+
+.modoNoturno{
+    padding-left: 240px;
+    padding-right:40px;
+    padding-bottom: 30px;
+}    
+.modoNoturno label{}
+.modoNoturno input{}
+
+
+
+
